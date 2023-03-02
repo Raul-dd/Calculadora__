@@ -12,7 +12,7 @@ cout<<"3- Multiplicacion"<<endl;
 cout<<"4- Division"<<endl;
 cin>>opc;
 
-swicth(opc){
+switch(opc){
 case 1:
 cout<<"ingrese primer valor"<<endl;
 cin>>num1;
