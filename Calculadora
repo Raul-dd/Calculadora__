@@ -1,7 +1,7 @@
 #nclude <iostream>
 using namespace std;
 
-int num1,num2,opc;
+int num1,num2,opc,res;
 main(){
   do{
 cout<<"Menu"<<endl;
@@ -13,6 +13,12 @@ cin>>opc;
 
 swicth(opc){
 case 1:
+cout<<"ingrese primer valor"<<endl;
+cin>>num1;
+cout<<"ingrese segundo valor"<<endl;
+cin>>num2;
+res=num1+num2;
+cout<<"resultado es igual a: "<<res<<endl;
 
 break;
 
