@@ -41,7 +41,6 @@ cin>>num2;
 res=num1*num2;
 cout<<"resultado es igual a: "<<res<<endl;
 break;
-break;
 
 case 4:
 cout<<"ingrese primer valor"<<endl;
