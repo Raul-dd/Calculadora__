@@ -1,62 +1,38 @@
-#include<stdio.h>
-#include<conio.h>
-main()
-{
-int opcion,selector;
-printf("opcion 1 suma\nopcion 2 resta\nopcion 3 divicion\nopcion 4 multiplicacion\n");
+#nclude <iostream>
+using namespace std;
 
-scanf("%d",&opcion);
-setbuf ( stdin, NULL );
+int num1,num2,opc;
+main(){
+  do{
+cout<<"Menu"<<endl;
+cout<<"suma"<<endl;
+cout<<"Resta"<<endl;
+cout<<"Multiplicacion"<<endl;
+cout<<"Division"<<endl;
+cin>>opc;
 
-switch(opcion)
-{
+swicth(opc){
 case 1:
 
-int numero1,numero2;
-printf("ingresa numero1: ");
-scanf("%d",&numero1);
-setbuf ( stdin, NULL );
-printf("ingresa numero2: ");
-scanf("%d",&numero2);
-setbuf ( stdin, NULL );
-printf("el resultado de la suma es:%d",numero1+numero2);
 break;
+
 case 2:
 
-int num1,num2;
-printf("ingresa numero1: ");
-scanf("%d",&num1);
-setbuf ( stdin, NULL );
-printf("ingresa numero2: ");
-scanf("%d",&num2);
-setbuf ( stdin, NULL );
-printf("el resultado de la suma es:%d",num1-num2);
 break;
 
 case 3:
 
-int nume1,nume2;
-printf("ingresa numero1: ");
-scanf("%d",&nume1);
-setbuf ( stdin, NULL );
-printf("ingresa numero2: ");
-scanf("%d",&nume2);
-setbuf ( stdin, NULL );
-printf("el resultado de la suma es:%d",nume1/nume2);
 break;
 
 case 4:
 
-int no1,no2;
-printf("ingresa numero1: ");
-scanf("%d",&no1);
-setbuf ( stdin, NULL );
-printf("ingresa numero2: ");
-scanf("%d",&no2);
-setbuf ( stdin, NULL );
-printf("el resultado de la suma es:%d",no1*no2);
 break;
+
+default:
+cout<<"Opcion invalida"<<endl;
 }
-getch();
+}while(opc!=5);
+
 return 0;
+}
 }
