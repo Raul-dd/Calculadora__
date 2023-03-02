@@ -21,7 +21,6 @@ cout<<"ingrese segundo valor"<<endl;
 cin>>num2;
 res=num1+num2;
 cout<<"resultado es igual a: "<<res<<endl;
-
 break;
 
 case 2:
@@ -49,7 +48,6 @@ cout<<"ingrese segundo valor"<<endl;
 cin>>num2;
 res=num1/num2;
 cout<<"resultado es igual a: "<<res<<endl;
-break;
 break;
 
 default:
