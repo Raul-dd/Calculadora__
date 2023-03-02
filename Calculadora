@@ -1,4 +1,4 @@
-#nclude <iostream>
+#include <iostream>
 using namespace std;
 
 double num1,num2,res;
@@ -6,10 +6,10 @@ int opc;
 main(){
   do{
 cout<<"Menu"<<endl;
-cout<<"suma"<<endl;
-cout<<"Resta"<<endl;
-cout<<"Multiplicacion"<<endl;
-cout<<"Division"<<endl;
+cout<<"1- suma"<<endl;
+cout<<"2- Resta"<<endl;
+cout<<"3- Multiplicacion"<<endl;
+cout<<"4- Division"<<endl;
 cin>>opc;
 
 swicth(opc){
@@ -58,5 +58,4 @@ cout<<"Opcion invalida"<<endl;
 }while(opc!=5);
 
 return 0;
-}
 }
