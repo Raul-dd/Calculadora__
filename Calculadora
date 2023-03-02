@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
+main(){
+
 double num1,num2,res;
 int opc;
-main(){
   do{
 cout<<"Menu"<<endl;
 cout<<"1- suma"<<endl;
