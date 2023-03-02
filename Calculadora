@@ -1,7 +1,8 @@
 #nclude <iostream>
 using namespace std;
 
-int num1,num2,opc,res;
+double num1,num2,res;
+int opc;
 main(){
   do{
 cout<<"Menu"<<endl;
@@ -23,15 +24,32 @@ cout<<"resultado es igual a: "<<res<<endl;
 break;
 
 case 2:
-
+cout<<"ingrese primer valor"<<endl;
+cin>>num1;
+cout<<"ingrese segundo valor"<<endl;
+cin>>num2;
+res=num1-num2;
+cout<<"resultado es igual a: "<<res<<endl;
 break;
 
 case 3:
-
+cout<<"ingrese primer valor"<<endl;
+cin>>num1;
+cout<<"ingrese segundo valor"<<endl;
+cin>>num2;
+res=num1*num2;
+cout<<"resultado es igual a: "<<res<<endl;
+break;
 break;
 
 case 4:
-
+cout<<"ingrese primer valor"<<endl;
+cin>>num1;
+cout<<"ingrese segundo valor"<<endl;
+cin>>num2;
+res=num1/num2;
+cout<<"resultado es igual a: "<<res<<endl;
+break;
 break;
 
 default:
